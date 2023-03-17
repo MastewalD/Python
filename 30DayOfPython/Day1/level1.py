@@ -15,11 +15,11 @@ python --version
 
 
 
-type(10)
-type((9.8))
-type(3.14)
-type(4 -4j)
-type(['Asabeneh', 'Python', 'Finland'])
-type("mastewal")
-type("degu")
-type("Ethiopia")
+type(10)  #int
+type((9.8))#float
+type(3.14)#float
+type(4 -4j)#complex
+type(['Asabeneh', 'Python', 'Finland'])#list
+type("mastewal")#string
+type("degu")#string
+type("Ethiopia")#string
