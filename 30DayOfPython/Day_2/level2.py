@@ -1,3 +1,4 @@
+import math
 first_name="mastewal"
 last_name="degu"
 full_name="mastewal degu"
@@ -27,3 +28,20 @@ remainder=num_two%num_one
 exp=num_one**num_two
 floor_variable=num_one//num_two
 print(total,diff,product,division,remainder,exp,floor_variable)
+
+
+
+radius=30
+area_of_circle=math.pi * (radius **2) 
+circum_of_circle=2*math.pi*radius
+print(area_of_circle)
+print (circum_of_circle)
+
+
+
+
+
+
+radius1=input("ensert the radius")
+area1=math.pi * (int(radius1) ** 2)
+print(area1)
