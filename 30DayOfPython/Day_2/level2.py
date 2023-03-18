@@ -14,3 +14,16 @@ print(type(first_name),type(last_name),type(full_name),type(country),type(city),
 
 
 print(len(first_name))
+print(len(first_name) > len(last_name))
+
+
+num_one=5
+num_two=4
+total= num_one +num_two
+diff=num_one - num_two
+product=num_one*num_two
+division=num_one/num_two
+remainder=num_two%num_one
+exp=num_one**num_two
+floor_variable=num_one//num_two
+print(total,diff,product,division,remainder,exp,floor_variable)
