@@ -45,3 +45,12 @@ print (circum_of_circle)
 radius1=input("ensert the radius")
 area1=math.pi * (int(radius1) ** 2)
 print(area1)
+
+First_name=input("Enter the first name")
+Last_name=input("Enter the last name")
+Country=input("Enter your country")
+Age=input("Ente your age")
+print(First_name,Last_name,Country,Age)
+
+
+print(help())
