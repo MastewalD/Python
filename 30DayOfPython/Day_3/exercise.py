@@ -1,4 +1,4 @@
-
+import math
 age=23
 height=1.73
 complex=2 +2j
@@ -24,3 +24,11 @@ length= input("Enter the length:")
 width=input("Ente the width:")
 area=int(length) *int(width)
 print("The area of rectangle is :",area)
+
+
+
+
+radius=input("Enter the radius of the triangle:")
+area = math.pi*(int(radius)**2)
+perimeter=2*math.pi*int(radius)
+print("The area and perimetr of the triangle is ",area,perimeter)
