@@ -18,3 +18,9 @@ b=input("Enter side b:")
 c=input("Enter side c:")
 perimeter =int(a) +int(b)+int(c)
 print("The perimeter of the triangle is ", perimeter)
+
+
+length= input("Enter the length:")
+width=input("Ente the width:")
+area=int(length) *int(width)
+print("The area of rectangle is :",area)
