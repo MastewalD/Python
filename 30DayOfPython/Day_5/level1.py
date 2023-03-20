@@ -20,3 +20,23 @@ first_company=it_companies[0]
 middle_company=it_companies[math.floor((len(it_companies)-1)/2)]
 last_company=it_companies[len(it_companies) -1]
 print(first_company,middle_company,last_company)
+it_companies[0]="Uber"
+print(it_companies)
+it_companies.append("Facebook")
+print(it_companies)
+
+it_companies.insert(math.floor((len(it_companies)-1)/2),"Maste")
+print(it_companies)
+print(first_company)
+print(first_company.upper())
+
+it_companies.extend("#")
+print(it_companies)
+does_exist="Kid" in it_companies
+print(does_exist)
+it_companies.sort()
+print(it_companies)
+it_companies.sort(reverse=True)
+print(it_companies)
+three_company=it_companies[0:3]
+print(three_company)
