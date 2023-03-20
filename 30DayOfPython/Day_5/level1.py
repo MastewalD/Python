@@ -40,3 +40,24 @@ it_companies.sort(reverse=True)
 print(it_companies)
 three_company=it_companies[0:3]
 print(three_company)
+last_three_company=it_companies[-3:]
+print(last_three_company)
+midd=math.floor(((len(it_companies)-1)/2))
+
+print(it_companies[midd:midd+1])
+print(it_companies)
+
+
+it_companies.pop(0)
+print(it_companies)
+
+del it_companies[midd]
+print(it_companies)
+del it_companies[(len(it_companies)-1)]
+print(it_companies)
+it_companies.clear()
+print(it_companies)
+del it_companies
+print(it_companies)
+
+
