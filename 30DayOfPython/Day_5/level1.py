@@ -60,4 +60,10 @@ print(it_companies)
 del it_companies
 print(it_companies)
 
+front_end = ['HTML', 'CSS', 'JS', 'React', 'Redux']
+back_end = ['Node','Express', 'MongoDB']
 
+front_end.extend(back_end)
+print(front_end)
+full_stack=front_end.copy()
+print(full_stack)
