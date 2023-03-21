@@ -33,13 +33,14 @@ area = math.pi*(int(radius)**2)
 perimeter=2*math.pi*int(radius)
 print("The area and circumfrance of the circle is ",area,perimeter)
 
-y=0
-x=(y+2)/2
-x_intercept=(x,y)
+y1=0
+x1=(y1+2)/2
+x_intercept=(x1,y1)
 
 
-x=0
-y=2*x-2
-y_intercept=(x,y)
-print(x_intercept)
-print(y_intercept)
+x2=0
+y2=2*x2-2
+y_intercept=(x2,y2)
+
+slop=(x2-x1)/(y2 - y1)
+print(slop)
