@@ -44,3 +44,17 @@ y_intercept=(x2,y2)
 
 slop=(y2-y1)/(x2 - x1)
 print(slop)
+
+
+
+x1=2
+y1=2
+point1=(x1,y1)
+x2=6
+y2=10
+point2=(x2,y2)
+
+m=(y2-y1)/(x2-x1)
+d=math.sqrt((x2-x1)**2 + (y2-y1)**2)
+print(m)
+print(d)
