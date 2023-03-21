@@ -58,3 +58,5 @@ m=(y2-y1)/(x2-x1)
 d=math.sqrt((x2-x1)**2 + (y2-y1)**2)
 print(m)
 print(d)
+
+print(slop == m)
