@@ -42,5 +42,5 @@ x2=0
 y2=2*x2-2
 y_intercept=(x2,y2)
 
-slop=(x2-x1)/(y2 - y1)
+slop=(y2-y1)/(x2 - x1)
 print(slop)
