@@ -28,7 +28,8 @@ print("The area of rectangle is :",area)
 
 
 
-radius=input("Enter the radius of the triangle:")
+radius=input("Enter the radius of the circle:")
 area = math.pi*(int(radius)**2)
 perimeter=2*math.pi*int(radius)
-print("The area and perimetr of the triangle is ",area,perimeter)
+print("The area and circumfrance of the circle is ",area,perimeter)
+
