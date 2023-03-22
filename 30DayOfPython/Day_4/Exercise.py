@@ -3,7 +3,7 @@ import math
 print("Thirty "+"Days "+"Of "+"Python")
 
 print("Coding "+"For "+"All")
-"""
+
 company="Coding For All"
 print(company)
 print(len(company))
@@ -51,7 +51,19 @@ print(sentence7)
 sentence8="Name\tAge \tCountry \tcity\nAsabeneh\t250 \tFinland \tHelsinki"
 print(sentence8)
 
-
+"""
+radius=10
+area=3.14*radius**2
+print("The area of a circle with radius {} is {} meters square".format(radius,area))
+a=8
+b=6
+print(f"{a}+{b}={a+b}")
+print(f"{a}-{b}={a-b}")
+print(f"{a}*{b}={a*b}")
+print(f"{a}/{b}={a/b}")
+print(f"{a}%{b}={a%b}")
+print(f"{a}//{b}={a//b}")
+print(f"{a}**{b}={a**b}")
 
 
 
