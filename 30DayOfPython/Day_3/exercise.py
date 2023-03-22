@@ -60,3 +60,47 @@ print(m)
 print(d)
 
 print(slop == m)
+
+len_python=len("python")
+len_jargon=len("jargon")
+print(len_python !=len_jargon)
+print("on" in ("python" and "jargon"))
+sentence="I hope this course is not full of jargon"
+print("jargon" in sentence)
+print("on" not in ("python" and "jargon") )
+
+str="python"
+float_number=float(len(str))
+print(str(float_number))
+
+var1=math.floor(7/3)
+print(var1 == int(2.7))
+
+print("10" ==10)
+print(int(9.8)==10)
+
+hours=input("Enter hours:")
+rate_per_hour=input("Enter rate per hour:")
+pay=int(hours)*int(rate_per_hour)
+print("Your weekly earning is " , pay)
+
+
+year=input("Enter number of years you have lived:")
+second=int(year)*365*24*60*60
+print("You have lived for " ,second,"seconds.")
+
+
+print('1 1 1 1 1\n2 1 2 4 8\n3 1 3 9 27\n4 1 4 16 64\n5 1 5 25 125')
+
+
+
+
+
+
+
+
+
+
+
+
+
