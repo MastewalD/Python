@@ -30,6 +30,8 @@ print(student.items())
 del student["skills"]
 print(student)
 del student
+
+
 print(student)
 
 
