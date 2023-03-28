@@ -1,69 +1,65 @@
 import math
-lst=list()
+"""
+lst=[]
+lst1=list()
 print(lst)
-lst =[]
-print(lst)
-lst=[1,2,3,4,5,6,]
+print(lst1)
+lst=[1,2,3,4,5,6]
 print(lst)
 print(len(lst))
 first_item=lst[0]
-last_item=lst[(len(lst) - 1)]
-middle_item=lst[math.floor((len(lst)-1)/2)]
+last_item=len(lst)
+middle_item=math.floor((len(lst)/2))
+print(first_item)
+print(middle_item)
 print(last_item)
-print(first_item,middle_item,last_item)
-mixed_data_types=["mastewal",23,1.73,"not married","addis ababa"]
-it_companies=["Facebook","Google","Microsoft","Apple","IBM","Oracle","Amazon"]
-print(mixed_data_types)
+mixed_data_types=["mastewal",23,1.73,"single","addis ababa"]
+it_companies=[ "Facebook", "Google", "Microsoft", "Apple", "IBM", "Oracle" , "Amazon"]
 print(it_companies)
 print(len(it_companies))
-first_company=it_companies[0]
-middle_company=it_companies[math.floor((len(it_companies)-1)/2)]
-last_company=it_companies[len(it_companies) -1]
-print(first_company,middle_company,last_company)
-it_companies[0]="Uber"
+first_item=it_companies[0]
+last_item=it_companies[len(it_companies) - 1]
+middle_item=it_companies[math.floor((len(it_companies) - 1)/2)]
+print(first_item)
+print(middle_item)
+print(last_item)
+it_companies[0]="mastewal"
 print(it_companies)
-it_companies.append("Facebook")
+it_companies.append("Fecebook")
+print(it_companies)
+print(len(it_companies))
+it_companies.insert(4,"tutu")
 print(it_companies)
 
-it_companies.insert(math.floor((len(it_companies)-1)/2),"Maste")
+print(it_companies[2].upper())
 print(it_companies)
-print(first_company)
-print(first_company.upper())
-
 it_companies.extend("#")
 print(it_companies)
-does_exist="Kid" in it_companies
-print(does_exist)
-it_companies.sort()
+print("netflex" in it_companies)
+sor=it_companies.sort()
 print(it_companies)
-it_companies.sort(reverse=True)
+sort=it_companies.sort(reverse=True)
 print(it_companies)
-three_company=it_companies[0:3]
-print(three_company)
-last_three_company=it_companies[-3:]
-print(last_three_company)
-midd=math.floor(((len(it_companies)-1)/2))
-
-print(it_companies[midd:midd+1])
+slice_out=it_companies[0:3]
+print(slice_out)
+slice_out1=it_companies[-4:-1]
+print(slice_out1)
+print(it_companies[math.floor((len(it_companies)-1)/2)])
+del it_companies[0]
 print(it_companies)
-
-
-it_companies.pop(0)
+del it_companies[math.floor((len(it_companies)-1)/2)]
 print(it_companies)
-
-del it_companies[midd]
-print(it_companies)
-del it_companies[(len(it_companies)-1)]
+del it_companies[len(it_companies)-1]
 print(it_companies)
 it_companies.clear()
 print(it_companies)
 del it_companies
-print(it_companies)
 
 front_end = ['HTML', 'CSS', 'JS', 'React', 'Redux']
 back_end = ['Node','Express', 'MongoDB']
-
-front_end.extend(back_end)
-print(front_end)
-full_stack=front_end.copy()
+combain= front_end + back_end
+print( combain)
+full_stack= combain.copy()
 print(full_stack)
+
+"""
