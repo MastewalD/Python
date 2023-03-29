@@ -1,15 +1,27 @@
 import math
 """
 age=input("Enter your age:")
-remain=18 -int(age)
-if int(age) >= 18:
-    print("You are old enough to drive.")
+diff=18-int(age)
+if diff > 0:
+    print("You need ",diff, " more years to learn to drive")
 else:
-    print("You need " ,remain ,"more years to learn to drive")
+    print("You are old enough to learn to drive")
+    
+import math
+
+my_age=25
+your_age=input("Enter your age:")
+diff=my_age-int(your_age)
+if diff > 0:
+    print("You are ",diff,"year younger than me")
+else:
+    print("You are ",int(math.fabs(diff)),"years older than me")
+
+a=input("Enter number one:")
+b=input("Enter number two:")
+if int(a)>int(b):
+    print(a,"is greater than ",b)
+
+else:
+    print(a,"is less than ",b)
 """
-yourAge=input("Enter your age:")
-difference=25-int(yourAge)
-if difference > 0:
-    print("You are ",difference,"year younger than me")
-else:
-    print("You are ",math.abs(difference),"year older than me ")
